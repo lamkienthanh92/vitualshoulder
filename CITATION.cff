@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it together with BodyParts3D (Mitsuhashi et al. 2009). The meshes embedded in index.html remain under CC BY-SA 2.1 Japan (see DATA_SOURCES.md)."
+title: "Virtual Shoulder 3D: browser-based 3D visualisation and planning aid for arthroscopic superior capsular reconstruction with the long head of the biceps tendon"
+type: software
+version: "0.20"
+date-released: 2026-11-03
+license: MIT
+authors:
+  - family-names: "Lam"
+    given-names: "Thanh Kien"
+    affiliation: "Faculty of Medical Technology, Van Lang University, Ho Chi Minh City, Vietnam"
+  - family-names: "Ho"
+    given-names: "Sy Nam"
+    affiliation: "Saigon ITO Phu Nhuan Hospital, Ho Chi Minh City, Vietnam"
+keywords:
+  - shoulder
+  - superior capsular reconstruction
+  - long head of the biceps tendon
+  - rotator cuff
+  - surgical planning
+  - 3D visualisation
+  - DICOM
+abstract: "Single-file web application (no installation, runs offline after the first load) that shows shoulder anatomy and kinematics, simulates graft length through glenohumeral abduction for seven superior capsular reconstruction techniques, and reads preoperative DICOM or STL data to place landmarks and plan the graft. A visualisation aid, not a medical device."
+references:
+  - type: article
+    title: "BodyParts3D: 3D structure database for anatomical concepts"
+    authors:
+      - family-names: "Mitsuhashi"
+        given-names: "N"
+      - family-names: "Fujieda"
+        given-names: "K"
+      - family-names: "Tamura"
+        given-names: "T"
+      - family-names: "Kawamoto"
+        given-names: "S"
+      - family-names: "Takagi"
+        given-names: "T"
+      - family-names: "Okubo"
+        given-names: "K"
+    journal: "Nucleic Acids Research"
+    year: 2009
+    volume: 37
+    start: "D782"
+    end: "D785"
+    doi: "10.1093/nar/gkn613"
