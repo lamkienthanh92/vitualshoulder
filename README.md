@@ -1,5 +1,9 @@
 # Virtual Shoulder 3D
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23911143.svg)](https://doi.org/10.5281/zenodo.23911143)
+
+Release 0.20 is archived on Zenodo: https://doi.org/10.5281/zenodo.23911143 (all versions: https://doi.org/10.5281/zenodo.23911142). The Zenodo archive holds the application and its documentation; this repository adds `analysis/` (OpenSim cross-check, in silico analyses).
+
 Interactive 3D viewer and planning aid for the right shoulder, built as a sibling of the virtual knee 3D app. Single static HTML file, no build step.
 
 

@@ -1,0 +1,5 @@
+# OpenSim check of the shoulder app (pilot)
+- `os_model.py`: builds a minimal OpenSim 4.6 model from the app geometry (geom.json): ground = scapula, humerus on a 1-DoF pin joint at the head centre about the app's abduction axis (plane 30 deg), a wrap sphere for the humeral head, the graft as a path spring from SG to GT, and straight-path actuators for supraspinatus, infraspinatus, subscapularis, teres minor and deltoid (origin/insertion = centroids of the template muscle ends). Writes `gh_from_app.osim` and `os_results.json`.
+- `os_crosscheck.py`: compares OpenSim's wrapped path length with the app's tangent-and-arc formula.
+Results: with the humeral anchor just outside the wrap sphere the two agree within 0.6 mm (RMSE 0.5 mm; constant -0.43 mm from the last path segment). With the anchor inside the sphere OpenSim does not wrap and returns the straight chord (41.7 mm at 0 deg vs 48.0 mm for the app, which drapes the graft over the head on purpose).
+Muscle paths are crude (centroids); moment arms are indicative only. No muscle force or contact model is included.

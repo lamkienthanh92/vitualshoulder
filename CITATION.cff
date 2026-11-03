@@ -6,12 +6,21 @@ version: "0.20"
 date-released: 2026-11-03
 license: MIT
 authors:
-  - family-names: "Lam"
-    given-names: "Thanh Kien"
-    affiliation: "Faculty of Medical Technology, Van Lang University, Ho Chi Minh City, Vietnam"
   - family-names: "Ho"
     given-names: "Sy Nam"
     affiliation: "Saigon ITO Phu Nhuan Hospital, Ho Chi Minh City, Vietnam"
+  - family-names: "Lam"
+    given-names: "Thanh Kien"
+    affiliation: "Faculty of Medical Technology, Van Lang University, Ho Chi Minh City, Vietnam"
+doi: "10.5281/zenodo.23911143"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23911143"
+    description: "Zenodo archive of release 0.20"
+  - type: doi
+    value: "10.5281/zenodo.23911142"
+    description: "All versions (concept DOI)"
+repository-code: "https://github.com/lamkienthanh92/vitualshoulder"
 keywords:
   - shoulder
   - superior capsular reconstruction
